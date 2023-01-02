@@ -1,5 +1,5 @@
-import express from "express";
-import bodyParser from "body-parser";
+var bodyParser = require('body-parser');
+var express = require('express');
 var app = express();
 var xhub = require('express-x-hub');
 
